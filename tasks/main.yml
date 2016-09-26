@@ -1,0 +1,8 @@
+---
+
+- name: Install composer project.
+  composer:
+    command: install
+    working_dir: "{{ beet_root }}"
+  become: no
+
